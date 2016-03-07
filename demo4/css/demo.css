@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family:  "Microsoft YaHei",Arial, "Hiragino Sans GB",  "WenQuanYi Micro Hei", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1300px;
+    height: auto;
+}
+.top{
+    height: 32px;
+    background-color: #2c3e50;
+    font-size: 12px;
+}
+.top a{
+    color: white;
+}
+.icon{
+    margin: 8px 15px;
+    float: left;
+}
+.icon img{
+    width: 12px;
+    height: 15px;
+    padding-right: 8px;
+}
+#icon1{
+    margin-left: 190px;
+}
+#icon-word{
+    color: #1dd2af;
+}
+.top-img{
+    vertical-align: middle;
+    line-height: 32px;
+    float: right;
+    margin-right: 205px;
+}
+.center{
+    width: 1300px;
+    height: 73px;
+    background-color: white;
+    vertical-align: middle;
+    line-height: 73px;
+    border-bottom: 2px solid #cfcfcf;
+    border-top: 2px solid #cfcfcf;
+}
+.center-logo{
+    font-size: 31px;
+    color: #2c3e50;
+    margin-left: 175px;
+    width: 200px;
+    float: left;
+}
+.center-logo span{
+    color: #1dd2af;
+}
+.center-nav{
+    width: auto;
+    font-size: 12px;
+    font-weight: bolder;
+    height: 73px;
+    float: left;
+    margin-left: 155px;
+}
+.center-nav ul {
+    float: left;
+    width: 520px;
+    list-style: none;
+}
+.center-nav ul li{
+    line-height: 73px;
+    float: left;
+    width: auto;
+    height: 73px;
+    text-align: center;
+    margin-left: 30px;
+}
+.center-nav ul li a{
+    color: #5d6e80;
+}
+.center-nav ul li a:hover{
+    color: #1dd2af;
+}
+.center-search{
+    float: right;
+    margin-right: 205px;
+
+}
+.center-search a img{
+    width: 33px;
+    height: 33px;
+    vertical-align: middle;
+    line-height: 73px;
+}
+.banner{
+    background: url("../img/Rectangle.jpg") no-repeat 0 0;
+    width: 1300px;
+    height: 535px;
+}
+.banner{
+    position: relative;
+}
+.banner-word{
+    vertical-align: middle;
+    color: white;
+    width: 650px;
+    height: 150px;
+    margin: auto;
+    position: absolute;
+    top:0;left: 0;right: 0;bottom: 0;
+}
+.banner-word span{
+    font-weight: bolder;
+    font-size: 38px;
+}
+.banner-word p{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.banner-word button{
+    border-radius: 5px;
+    height: 46px;
+    width: auto;
+    border: 2px solid #fff;
+    margin-left: 22px;
+    font-size: 15px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(255,255,255,0.1);
+}
+.banner-word button:hover{
+    background-color: #1dd2af;
+}
+.banner-arrow1 img,
+.banner-arrow2 img{
+    width: 64px;
+    height: 64px;
+
+}
+.banner-arrow1 {
+    position: absolute;
+    top:242px;
+    width: 64px;
+    height: 64px;
+    display: block;
+}
+.banner-arrow2 {
+    position: absolute;
+    top:242px;
+    left: 1232px;
+    width: 64px;
+    height: 64px;
+    display: block;
+}
+.banner-arrow1:hover,
+.banner-arrow2:hover{
+    background-color: #1dd2af;
+}
+.search{
+    float: left;
+    height: 80px;
+    width: 1300px;
+    background-color: #2c3e50;
+}
+.search-word{
+    height: 80px;
+    width: 110px;
+    margin-left: 204px;
+    float: left;
+
+}
+.search-word span{
+    color: #92a3b3;
+    display: block;
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: left;
+}
+.search-word p{
+    color: #ffffff;
+    font-size: 19px;
+    text-align: left;
+}
+.search-img img{
+    height: 80px;
+    width: auto;
+}
+.search-img{
+    height: 80px;
+    width: auto;
+    float: left;
+}
+.search-where{
+    padding: 20px;
+    float: left;
+    margin-top: 5px;
+}
+.search-where span{
+    color: white;
+    font-size: 17px;
+    padding-right: 10px;
+}
+.search-where input{
+    height: 30px;
+    text-align: left;
+    border-radius: 5px;
+    color: #dadada;
+    width: 240px;
+}
+.search button{
+    width: 87px;
+    height: 42px;
+    background-color: #1dd2af;
+    color: white;
+    font-size: 15px;
+    float: left;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
